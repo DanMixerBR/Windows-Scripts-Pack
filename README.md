@@ -1,6 +1,6 @@
 # Windows Scripts Pack
 
-Collection of BAT and PowerShell scripts to automate processes in Windows. There are **20 scripts** in total, 16 scripts to run in any environment and 4 scripts for corporate environments.
+Collection of BAT and PowerShell scripts to automate processes in Windows. There are **20 scripts** in total.
 
 See below which scripts are and their functionalities.
 
@@ -21,10 +21,3 @@ See below which scripts are and their functionalities.
 - "Restore Win10 Context Menu.bat" restores the appearance of the Windows 10 Context Menu in Windows 11;
 - "System repair.bat" uses the DISM and SFC tools to scan and repair system files that may be missing or corrupt;
 - "Windows Program Update v2.bat" updates Windows programs and applications quickly and easily.
-
-**Scripts for corporate environments:**
-
-- "Check Windows Password Expiration v2.bat" checks the validity of the Windows password using the username;
-- "Check Windows Password Expiration [by date].ps1" checks the validity of the password of all AD (Active Directory) users using dates;
-- "AD Users with [Password never expires].ps1" displays a list of all AD users who have a lifetime password;
-- "AD Users with [User must change password].ps1" displays a list of all AD users who are configured to change their password at the next logon.
